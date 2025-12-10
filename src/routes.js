@@ -1,6 +1,6 @@
-const path = require('path');
-const fs = require('fs');
-const express = require('express');
+const path = require("path");
+const fs = require("fs");
+const express = require("express");
 
 /**
  * 设置应用路由

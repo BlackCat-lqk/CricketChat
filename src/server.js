@@ -38,7 +38,6 @@ class ChatServer {
   setupHeartbeat() {
     // 定期发送心跳并检测死亡连接
     setInterval(() => {
-      const now = Date.now();
       let removedCount = 0;
 
       // 可以在这里添加更复杂的心跳检测逻辑
